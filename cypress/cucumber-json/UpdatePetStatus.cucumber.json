@@ -1,0 +1,43 @@
+[
+  {
+    "description": "    I want to update the status of a pet\n    the update happens with any given id for a pet",
+    "keyword": "Feature",
+    "name": "Update Pet Status",
+    "line": 1,
+    "id": "update-pet-status",
+    "tags": [],
+    "uri": "UpdatePetStatus.feature",
+    "elements": [
+      {
+        "id": "update-pet-status;update-pet-with-id-90000006-to-'sold'",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Update pet with id 90000006 to 'sold'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I update the pet with id \"90000006\" status to \"sold\"",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response status code should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

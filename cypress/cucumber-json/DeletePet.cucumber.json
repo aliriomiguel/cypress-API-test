@@ -1,0 +1,53 @@
+[
+  {
+    "description": "  I want to delete a pet from the Petstore\n  So that I can remove the pet with the given id",
+    "keyword": "Feature",
+    "name": "Delete Pet",
+    "line": 1,
+    "id": "delete-pet",
+    "tags": [],
+    "uri": "DeletePet.feature",
+    "elements": [
+      {
+        "id": "delete-pet;delete-pet-by-id",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Delete pet by id",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I have a pet with id 90000006",
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I delete the pet with id 90000006",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the pet with id 90000006 should be deleted",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

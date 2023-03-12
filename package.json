@@ -1,0 +1,27 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Automation Test - Technical interview example. The objective of the test is to see the ability to create an automation environment, along with the automation of two simple tests, one positive and one negative, and the reporting of the results. Automate: 1) Open Google.es 2) Search Apple 2.1)More than 100,000 results [OK] 2.2) Less than 10,000 results [NOK] 3) Report the results. Make a detailed readme of the installation and use Javascript preferred, but do it however you want, Gherkin preferred, but do it how you want",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Alirio Aranguren",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^12.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

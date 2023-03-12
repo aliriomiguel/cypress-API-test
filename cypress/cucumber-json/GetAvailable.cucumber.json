@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    I want to check about the \n    available pets in the petstore\n\n    Im getting available pets from my store",
+    "keyword": "Feature",
+    "name": "I search for available pets",
+    "line": 1,
+    "id": "i-search-for-available-pets",
+    "tags": [],
+    "uri": "GetAvailable.feature",
+    "elements": [
+      {
+        "id": "i-search-for-available-pets;get-available-pets",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Get available pets",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I send a GET request",
+            "result": {
+              "status": "passed",
+              "duration": 886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the response status should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the response should contain pets",
+            "result": {
+              "status": "passed",
+              "duration": 1893000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

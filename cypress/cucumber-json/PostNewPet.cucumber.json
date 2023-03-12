@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    I want to add a new pet in the petstore\n    Its better than let it alone in the streets",
+    "keyword": "Feature",
+    "name": "Adding a new pet into the store",
+    "line": 1,
+    "id": "adding-a-new-pet-into-the-store",
+    "tags": [],
+    "uri": "PostNewPet.feature",
+    "elements": [
+      {
+        "id": "adding-a-new-pet-into-the-store;insert-a-new-pet-with-available-status",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Insert a new pet with available status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "content": "  {\n      \"id\": 90000006,\n      \"category\": {\n          \"id\": 0,\n          \"name\": \"string\"\n      },\n      \"name\": \"AlirioTestPet\",\n      \"photoUrls\": [\n          \"string\"\n      ],\n      \"tags\": [\n          {\n          \"id\": 0,\n          \"name\": \"string\"\n          }\n      ],\n      \"status\": \"available\"\n  }",
+                "line": 7
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I set the request body to:",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I send the API request",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the response status should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "content": "  {\n      \"id\": 90000006,\n      \"category\": {\n          \"id\": 0,\n          \"name\": \"string\"\n      },\n      \"name\": \"AlirioTestPet\",\n      \"photoUrls\": [\n          \"string\"\n      ],\n      \"tags\": [\n          {\n          \"id\": 0,\n          \"name\": \"string\"\n          }\n      ],\n      \"status\": \"available\"\n  }",
+                "line": 30
+              }
+            ],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the response body should contain:",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
