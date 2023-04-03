@@ -23,7 +23,7 @@
             "name": "I send a GET request",
             "result": {
               "status": "passed",
-              "duration": 886000000
+              "duration": 979000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the response status should be 200",
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 14000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the response should contain pets",
             "result": {
               "status": "passed",
-              "duration": 1893000000
+              "duration": 1575000000
             }
           }
         ]

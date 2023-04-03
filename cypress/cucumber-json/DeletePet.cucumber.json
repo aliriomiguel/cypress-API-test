@@ -23,7 +23,7 @@
             "name": "I have a pet with id 90000006",
             "result": {
               "status": "passed",
-              "duration": 272000000
+              "duration": 233000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I delete the pet with id 90000006",
             "result": {
               "status": "passed",
-              "duration": 119000000
+              "duration": 101000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the pet with id 90000006 should be deleted",
             "result": {
               "status": "passed",
-              "duration": 117000000
+              "duration": 97000000
             }
           }
         ]

@@ -28,7 +28,7 @@
             "name": "I set the request body to:",
             "result": {
               "status": "passed",
-              "duration": 130000000
+              "duration": 122000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I send the API request",
             "result": {
               "status": "passed",
-              "duration": 123000000
+              "duration": 110000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "the response status should be 200",
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 32000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "the response body should contain:",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 17000000
             }
           }
         ]

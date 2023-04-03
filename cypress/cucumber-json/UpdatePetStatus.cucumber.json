@@ -23,7 +23,7 @@
             "name": "I update the pet with id \"90000006\" status to \"sold\"",
             "result": {
               "status": "passed",
-              "duration": 249000000
+              "duration": 258000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the response status code should be 200",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 32000000
             }
           }
         ]
